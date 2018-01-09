@@ -1,0 +1,1 @@
+Elixir implementation of https://github.com/ferd/cascading-failures/.
