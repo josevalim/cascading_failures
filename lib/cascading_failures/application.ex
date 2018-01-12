@@ -19,7 +19,7 @@ defmodule CascadingFailures.Application do
     opts = [
       strategy: :one_for_one,
       name: CascadingFailures.Supervisor,
-      max_restars: 200,
+      max_restarts: 200,
       max_seconds: 10
     ]
 
